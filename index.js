@@ -31,10 +31,4 @@ client.on('message', message => {
 
     };
 
-    if (message.content.includes('!nandor'))
-    {
-        message.author.id.roles.add('Lightly Shamed')
-        console.log(message.guild.roles.cache)
-    }
-
 });
